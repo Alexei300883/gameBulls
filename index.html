@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <style>
+        .btn {
+            background: navy;
+            color: white;
+            font-size: 9pt;
+        }
+        .body {
+            text-align: center;
+        }
+        .p {
+            border: 1px solid navy;
+            padding: 10px;
+        }
+    </style>
+    <script src="App.js" defer></script>
+</head>
+<body class="body" >
+    <h1>Игра : "Быки и Коровы"</h1>
+    <p>Введите число: <input type="text" id="mynum"></p>
+    <button onclick="f1()" class="btn" >Угадать</button>  
+    <hr>
+    <p id="out"></p>
+    <p id="temp-out"></p>
+    <p class="p">                Правила игры. 
+        Введите в поле четырехзначное число и нажмите кнопку"Угадать".
+        Если ваше число совпадает с загаданным, появится текст "Вы победили".
+        Иначе будет появлятся текст с подсказками, сколько Коров и Быков в 
+        загаданном числе. 
+        Что бы ввести число вновь, нужно очистить поле ввода и ввести новое число. 
+        Для запуска новой игры, необходимо нажать иконку перезагрузки браузера. 
+        Так же я не скрыл поле для загаданного числа. Это сделано для проверки 
+        работоспособности кода. 
+                      Спасибо за внимание!!!
+       </p>
+</body>
+</html>
